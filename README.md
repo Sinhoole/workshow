@@ -1,4 +1,4 @@
-mysite
+workshow
 ======
 
 Own personal website
