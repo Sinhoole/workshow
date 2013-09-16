@@ -18,12 +18,12 @@ a:hover{color:#d82b7f;}
 #avatar li#a-b{left:0;top:0;display:block;}
 #avatar li a{display: inline-block;width:20px;height:20px;padding:5px;line-height:20px;color:#333;border-radius:50%;text-indent:-999em;overflow: hidden;box-shadow:0 0 3px rgba(0,0,0,0.4);background:url(../img/sns.png) 0 0 no-repeat;}
 #avatar li a:hover{
-	-webkit-transform: rotate(360deg); /* for Chrome || Safari */
-	-moz-transform: rotate(360deg); /* for Firefox */
-	-ms-transform: rotate(360deg); /* for IE */
-	-o-transform: rotate(360deg); /* for Opera */
+    -webkit-transform: rotate(360deg); /* for Chrome || Safari */
+    -moz-transform: rotate(360deg); /* for Firefox */
+    -ms-transform: rotate(360deg); /* for IE */
+    -o-transform: rotate(360deg); /* for Opera */
 
-	-webkit-transition: 0.4s;
+    -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
   transition: 0.4s;
 
@@ -33,12 +33,12 @@ a:hover{color:#d82b7f;}
 }
 #avatar li#a-b a{display:inline-block;width:auto;height:auto;padding:0;background:none;line-height:auto;outline:none;text-indent:0;cursor: move;}
 #avatar li#a-b a:hover{
-	-webkit-transform: rotate(0deg); /* for Chrome || Safari */
-	-moz-transform: rotate(0deg); /* for Firefox */
-	-ms-transform: rotate(0deg); /* for IE */
-	-o-transform: rotate(0deg); /* for Opera */
+    -webkit-transform: rotate(0deg); /* for Chrome || Safari */
+    -moz-transform: rotate(0deg); /* for Firefox */
+    -ms-transform: rotate(0deg); /* for IE */
+    -o-transform: rotate(0deg); /* for Opera */
 
-	opacity: 1;   -moz-opacity:1;
+    opacity: 1;   -moz-opacity:1;
     filter:alpha(opacity=10);
 }
 #nav-w{display:none;margin-top:20px;}
@@ -140,7 +140,8 @@ a#link-work:hover i b{background-position:0px -13px;}
 #CompactHeader{position: relative;z-index: 2; margin-top: 0px;color: #fff;}
     #CompactHeader .title{text-align: center;margin: 0;position: relative;overflow: hidden;height: 40px;}
     #CompactHeader #tagline{color: #fff;line-height: 39px;height: 40px; position: absolute;top: -40px;opacity: 0;width: 100%;left:0;text-align: center;}
-    #CompactHeader #tagline a{font-size: 14px; color: #fff;vertical-align: top;}
+    #CompactHeader #tagline a{font-size: 14px; display: block;height: 40px; color: #fff;vertical-align: top;line-height: 40px;}
+    #CompactHeader #tagline a i{vertical-align: middle;}
     #CompactHeader #tagline a:hover,#CompactHeader #tagline a:focus,#CompactHeader #tagline a:active{
         text-decoration: none;
         outline: none;
