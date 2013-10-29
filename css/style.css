@@ -1,6 +1,6 @@
 *{margin:0;padding:0;list-style:none;}
 /*html{background:#e0e0e0 fixed center center no-repeat url(../img/bg.jpg);background-size:cover;}*/
-body{text-align:center;background:url(../img/1.jpg) fixed center top #fff no-repeat;background-size:cover;font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;/*overflow:hidden;*/}
+body{text-align:center;background:#666 url(../img/2.jpg) fixed center top no-repeat;background-size:cover;font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;/*overflow:hidden;*/}
 ul, ol{margin:0;padding:0;list-style: none}
 .btn{-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -52,8 +52,9 @@ a:hover{color:#1abc9c;}
 .cont i{margin-right: 10px;}
 .cont ul{padding:15px 0 0 0;margin:0;}
 .cont li{color: #fff;font-size:12px;list-style: none ;padding:5px 0 5px 0px; margin: 0;}
+.cont li.contact{font-size: 24px;font-family: "Raleway";letter-spacing: 2px;}
 .cont h3{font-size:50px;line-height:1.7;word-wrap: break-word;font-family:"Helvetica"; color:#fff;text-align:center;font-weight:normal;padding-top:10px;}
-#me{ text-align:center;font-family: 'Righteous';font-weight: normal;font-size:60px;line-height:1;}
+#me{ text-align:center;font-family: 'Righteous';font-weight: 400;font-size:60px;line-height:1;}
 
 #avatar a.icon_douban{background-position:0 0;}
 #avatar a.icon_v2ex{background-position:0 -30px;}
@@ -194,7 +195,7 @@ a#link-work:hover i b{background-position:0px -13px;}
 .project_time,
 .project_status,
 .project_report{font-size: 12px;color: #666;}
-.project_info{font-size: 14px;padding: 0 20px;}
+.project_info{font-size: 13px;padding: 0 20px;line-height: 1.7}
 .project_time{padding-left: 20px;}
 
 .project_report{display: block;padding-top: 10px}
