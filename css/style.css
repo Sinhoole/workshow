@@ -151,7 +151,7 @@ a#link-work:hover i b{background-position:0px -13px;}
         opacity:0.8;
     }
 
-#CompactHeader.floating{position: fixed;z-index: 4;top: 0;left: 0;width: 100px;background:url(../img/1.jpg) fixed center center #fff no-repeat;background-size:cover; width: 100%;margin: 0;/*box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);*/}
+#CompactHeader.floating{position: fixed;z-index: 4;top: 0;left: 0;width: 100px;background:url(../img/2.jpg) fixed center center #fff no-repeat;background-size:cover; width: 100%;margin: 0;/*box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);*/}
 /*#CompactHeader.floating #tagline a{color: #fff;}*/
 
 #portfolio{position: relative;z-index: 2;background: #fff;}
