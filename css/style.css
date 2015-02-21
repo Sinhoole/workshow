@@ -104,6 +104,7 @@ canvas {
 #main h3 {
     padding-top: 20px;
     font-size: 16px;
+    font-weight: 500;
 }
 
 #main p {
@@ -117,6 +118,12 @@ canvas {
     border-bottom: 1px solid #fff;
 }
 
+#email {
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
 footer {
     position: fixed;
     bottom: 10px;
@@ -127,6 +134,11 @@ footer {
     color: rgba(255,255,255,0.8);
     font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
     font-weight: 100;
+    letter-spacing: 1px;
+}
+
+footer span {
+    display: none;
 }
 
 @media screen and (min-width: 320px) {
