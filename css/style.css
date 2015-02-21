@@ -36,3 +36,22 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+
+body {
+    overflow: hidden;
+    font: 13px/1.4 Helvetica, arial, freesans, clean, sans-serif;
+}
+
+canvas {
+    line-height: 0;
+}
+
+h1 {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    line-height: 1;
+}
