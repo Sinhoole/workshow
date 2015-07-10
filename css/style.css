@@ -11,48 +11,38 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
+
 body {
     line-height: 1;
 }
+
 ol, ul {
     list-style: none;
 }
-blockquote, q {
-    quotes: none;
-}
-blockquote {
-    &:before, &:after {
-        content: "";
-        content: none;
-    }
-}
-q {
-    &:before, &:after {
-        content: "";
-        content: none;
-    }
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
+
 
 
 @font-face {
     font-family: 'P22UndergroundProThin';
-    src: url('../fonts/p22undergroundpro-thin-webfont.eot');
-    src: url('../fonts/p22undergroundpro-thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/p22undergroundpro-thin-webfont.woff') format('woff'),
-         url('../fonts/p22undergroundpro-thin-webfont.ttf') format('truetype'),
-         url('../fonts/p22undergroundpro-thin-webfont.svg#P22UndergroundProThin') format('svg');
+    src: url("../fonts/p22undergroundpro-thin-webfont.eot");
+    src: url("../fonts/p22undergroundpro-thin-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/p22undergroundpro-thin-webfont.woff") format("woff"), url("../fonts/p22undergroundpro-thin-webfont.ttf") format("truetype"), url("../fonts/p22undergroundpro-thin-webfont.svg#P22UndergroundProThin") format("svg");
     font-weight: normal;
     font-style: normal;
 }
+
 
 body {
     min-width: 300px;
     overflow: hidden;
     font: 13px/1.4 Helvetica, arial, freesans, clean, sans-serif;
+}
+
+a {
+    border-bottom: 1px solid #eee;
+}
+
+a:hover {
+    border-bottom: 1px solid transparent;
 }
 
 canvas {
@@ -63,47 +53,30 @@ canvas {
     position: absolute;
 }
 
-#wrapper {
-    position: absolute;
-    top: 0;
-    right: 0;
-    /*bottom: 0;*/
-    /*z-index: -1;*/
-    left: 0;
-    color: #fff;
-    font-family: 'P22UndergroundProThin', sans-serif;
-    text-shadow: 0 0 1px rgba(0,0,0, .2);
-}
-
 #cont {
     position: absolute;
     left: 20px;
-    /*top: 50%;*/
-    width: 300px;
-    /*height: 400px;*/
-    /*margin-top: -200px;*/
-    /*margin-top: 20px;*/
     color: #fff;
     font-family: 'P22UndergroundProThin', sans-serif;
-    text-shadow: 0 0 1px rgba(0,0,0, .2);
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
 }
 
 #main {
-    width: 260px;
+    /*width: 260px;*/
     padding: 20px 20px 30px 20px;
     margin: 0 auto;
-    background: rgba(0,0,0, 0.1);
+    /*background: rgba(0, 0, 0, 0.1);*/
 }
 
 #main h1 {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-size: 50px;
     line-height: 1.2;
 }
 
 #main h3 {
     padding-top: 20px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -115,13 +88,37 @@ canvas {
 #main a {
     color: #fff;
     text-decoration: none;
-    border-bottom: 1px solid #fff;
+    /*border-bottom: 1px solid #fff;*/
 }
+
+#nav {
+    padding-top: 30px;
+}
+
+#nav dt {
+    font-size: 18px;
+}
+
+#nav dd {
+    padding-top: 10px;
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+#nav dd a {
+    /*border-bottom: none;*/
+    /*font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;*/
+}
+
 
 #email {
     font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
     letter-spacing: 2px;
     font-weight: 100;
+    letter-spacing: 1px;
 }
 
 footer {
@@ -131,14 +128,10 @@ footer {
     font-size: 12px;
     text-align: center;
     color: #fff;
-    color: rgba(255,255,255,0.8);
+    color: rgba(255, 255, 255, 0.8);
     font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
     font-weight: 100;
     letter-spacing: 1px;
-}
-
-footer span {
-    display: none;
 }
 
 @media screen and (min-width: 320px) {
@@ -146,6 +139,7 @@ footer span {
         width: 300px;
         margin: 0 20px;
     }*/
+
     #cont {
         left: 10px;
     }
