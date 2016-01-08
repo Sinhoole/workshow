@@ -12,7 +12,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     display: block;
 }
 
+html,
 body {
+    height: 100%;
     line-height: 1;
 }
 
@@ -32,32 +34,48 @@ ol, ul {
 
 
 body {
+    position: relative;;
     min-width: 300px;
     overflow: hidden;
-    font: 13px/1.4 Helvetica, arial, freesans, clean, sans-serif;
+    font: 13px/1.4 "PingFang SC Light", "PingFang SC", "Lantinghei SC Light", "Microsoft Yahei", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial;
 }
 
-a {
+/*a {
     border-bottom: 1px solid #eee;
-}
+}*/
 
-a:hover {
+/*a:hover {
     border-bottom: 1px solid transparent;
-}
+}*/
 
 canvas {
     line-height: 0;
 }
 
+#mimida {
+    /*-webkit-transform: translate3d(-50% -50% 0);
+    transform: translate3d(-50%, -50%, 0);
+    top: 50%;
+    left: 50%;*/
+    /*transform: rotateY(180deg);*/
+    position: absolute;
+    
+    width: 100%;
+    height: 100%;
+    background: url(../img/ebe6766000f3101b81c90aa62187661b.jpg) center center no-repeat;
+    background-size: cover;
+}
+
 #container {
     position: absolute;
+    opacity: .9;
 }
 
 #cont {
     position: absolute;
     left: 20px;
     color: #fff;
-    font-family: 'P22UndergroundProThin', sans-serif;
+    font-family: 'P22UndergroundProThin', "PingFang SC Light", "PingFang SC", "Lantinghei SC Light", "Microsoft Yahei", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial;
     text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -69,10 +87,40 @@ canvas {
 }
 
 #main h1 {
+    position: relative;
     /*text-transform: uppercase;*/
     font-size: 50px;
-    line-height: 1.2;
+    line-height: 1;
+    /*line-height: 1.2;*/
 }
+
+#main h1 img,
+#main h1 span {
+    display: inline-block;
+    zoom: 1;
+    vertical-align: top;
+}
+
+#main h1 img {
+    width: 50px;
+    height: 50px;
+}
+/*
+#main h1::after {
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #222;
+    -webkit-box-shadow: 0 0 3px 3px #EDE03D inset;
+    box-shadow: 0 0 3px 3px #EDE03D inset;
+}*/
+
 
 #main h3 {
     padding-top: 20px;
@@ -107,15 +155,23 @@ canvas {
 }
 
 #nav dd a {
+    border-radius: 3px;
+    padding: 1px 4px 2px 4px;
+    background: rgba(0,0,0, 0.3);
     /*border-bottom: none;*/
-    /*font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
     font-weight: 100;
-    letter-spacing: 1px;*/
+    letter-spacing: 1px;
+}
+
+#nav dd a:hover {
+    background: #fff;
+    color: #333;
 }
 
 
 #email {
-    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+    font-family: "Monaco", "Courier New", "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
     letter-spacing: 2px;
     font-weight: 100;
     letter-spacing: 1px;
@@ -142,6 +198,7 @@ footer {
 
     #cont {
         left: 10px;
+        font-size: 12px;
     }
 }
 
