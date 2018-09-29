@@ -3,8 +3,8 @@
 /* 
 * @Author: Jiyun
 * @Date:   2015-05-23 15:21:59
-* @Last Modified by:   Jiyun
-* @Last Modified time: 2015-06-26 17:22:55
+* @Last Modified by:   hanjiyun
+* @Last Modified time: 2018-09-29 13:12:02
 */
 
 /* jshint ignore:start */
@@ -53,7 +53,7 @@ function canvas() {
     var pool = [];
 
     var demo = Sketch.create({
-        container: document.getElementById( 'container' )
+        container: document.getElementById('container')
     });
     demo.setup = function() {
         // Set off some initial particles.
@@ -104,9 +104,9 @@ function canvas() {
             // console.log(~~this.r, ~~this.g, ~~this.b);
             // this.fillStyle = 'rgb(' + ~~this.r + ',' + ~~this.g + ',' + ~~this.b + ')';
         
-        grd.addColorStop(0, 'rgb(' + ~~this.r + ',' + ~~this.b + ',' + ~~this.g + ')');
+        grd.addColorStop(0, 'rgba(' + ~~this.r + ',' + ~~this.b + ',' + ~~this.g + ', .15)');
         // grd.addColorStop(0.4, 'rgb(' + ~~(this.r - 30) + ',' + ~~(this.g - 30) + ',' + (~~this.b - 30) + ')');
-        grd.addColorStop(1, 'rgb(' + ~~(this.g) + ',' + ~~(this.r) + ',' + ~~(this.b) + ')');
+        grd.addColorStop(1, 'rgba(' + ~~(this.g) + ',' + ~~(this.r) + ',' + ~~(this.b) + ', .15)');
         this.fillStyle = grd;
         this.fillRect(0, 0, this.width, this.height);
     };

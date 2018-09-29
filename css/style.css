@@ -66,15 +66,13 @@ canvas {
 }
 
 #container {
-/*    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    width: 35%;
-    background: #000;
     z-index: 2;
-    opacity: .75;*/
+    opacity: .75;
 }
 
 #cont {
@@ -101,7 +99,8 @@ canvas {
     /*text-transform: uppercase;*/
     font-size: 50px;
     line-height: 1;
-    /*line-height: 1.2;*/
+    font-family: 'P22UndergroundProThin', "PingFang SC Light", "PingFang SC", "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+    font-weight: 700;
 }
 
 #main h1 img,
@@ -135,7 +134,7 @@ canvas {
 #main h3 {
     padding-top: 20px;
     font-size: 18px;
-    font-weight: 500;
+    font-family: "Monaco", "Courier New", "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
 }
 
 #main p {
