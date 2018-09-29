@@ -160,7 +160,6 @@ canvas {
 #nav dd {
     padding-top: 10px;
     font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
-    font-weight: 100;
     letter-spacing: 1px;
 }
 
@@ -172,7 +171,6 @@ canvas {
     background: rgba(0,0,0, 0.3);
     /*border-bottom: none;*/
     font-family: Helvetica, "Segoe UI", Arial, freesans, sans-serif;
-    font-weight: 100;
     letter-spacing: 1px;
 }
 
@@ -190,7 +188,6 @@ canvas {
 #email {
     font-family: "Monaco", "Courier New", "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
     letter-spacing: 2px;
-    font-weight: 100;
     letter-spacing: 1px;
 }
 
@@ -204,7 +201,6 @@ footer {
     color: #fff;
     color: rgba(255, 255, 255, 0.8);
     font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
-    font-weight: 100;
     letter-spacing: 1px;
 }
 
