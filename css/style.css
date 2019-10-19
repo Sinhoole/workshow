@@ -224,12 +224,12 @@ footer {
 
 @media screen and (min-width: 450px) {
     body {
-        background: #222 url(//45.76.149.238/static_files/wdj-blur.jpg) center center no-repeat;
+        background: #222 url(//han.im/static_files/wdj-blur.jpg) center center no-repeat;
         background-size: cover;
     }
 
     #mimida {
-        background: url(//45.76.149.238/static_files/wdj.jpg) center center no-repeat;
+        background: url(//han.im/static_files/wdj.jpg) center center no-repeat;
         background-size: cover;
     }
 
